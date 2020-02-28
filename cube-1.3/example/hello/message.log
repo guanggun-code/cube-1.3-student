@@ -1,0 +1,41 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"hello","receiver_uuid":"ech
+    o","route":"msgprint","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":1,
+    "rjump":1,"record_type":"MESSAGE","record_subtype":"BASE_MSG","record_num":1,"re
+    cord_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"ebb7b2e9cbe7b45938f0cabc
+    4f859f320c4d43534901232f852f07f6f6d3b022"},
+"RECORD":[
+    {"message":"Hello,world!"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"echo","receiver_uuid":"prin
+    t","route":"msgprint","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":2,
+    "rjump":1,"record_type":"MESSAGE","record_subtype":"BASE_MSG","record_num":1,"re
+    cord_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"ebb7b2e9cbe7b45938f0cabc
+    4f859f320c4d43534901232f852f07f6f6d3b022"},
+"RECORD":[
+    {"message":"Hello,world!"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"print","receiver_uuid":"","
+    route":"msgprint","flow":"FINISH","state":"MATCH","flag":"LOCAL","ljump":3,"rjum
+    p":1,"record_type":"MESSAGE","record_subtype":"BASE_MSG","record_num":1,"record_
+    size":0,"expand_num":0,"expand_size":0,"msg_uuid":"ebb7b2e9cbe7b45938f0cabc4f859
+    f320c4d43534901232f852f07f6f6d3b022"},
+"RECORD":[
+    {"message":"Hello,world!"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

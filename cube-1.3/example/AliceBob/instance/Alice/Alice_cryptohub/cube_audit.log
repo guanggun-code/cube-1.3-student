@@ -1,0 +1,54 @@
+time: 0.000325 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/namelist.json!
+time: 0.000433 :read 4 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+time: 0.000491 :read 1 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/typelist.json!
+time: 0.000693 :read 7 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/subtypelist.json!
+time: 0.000750 :read 1 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/baseflag.json!
+time: 0.000973 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/memdb.json!
+time: 0.001548 :read 7 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/msghead.json!
+time: 0.001824 :read 2 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/msgrecord.json!
+time: 0.002060 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/expandrecord.json!
+time: 0.002566 :read 10 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/base_msg.json!
+time: 0.002994 :read 8 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/return.json!
+time: 0.003255 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/dispatchrecord.json!
+time: 0.003383 :read 2 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/exmoduledefine.json!
+time: 0.003524 :read 1 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/sys_conn.json!
+time: 0.004156 :read 7 elem from file file_trans.json!
+time: 0.026173 :this machine's local uuid is 01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61
+
+time: 0.031439 :read 1 connector!
+
+time: 0.031452 :conn server crypto_server begin to listen!
+
+time: 0.031576 :read 1 policy from router_policy file!
+time: 0.031601 :system plugin router_proc is prepared!
+time: 0.031734 :init_para 0x1fa3d10
+
+time: 0.031741 :init_para->updataname sessionkey
+
+time: 0.036814 :system plugin connector_proc is prepared!
+time: 0.036876 :ex_module connector_proc started successfully!
+time: 0.036905 :ex_module router_proc started successfully!
+time: 0.036953 :ex_module crypt started successfully!
+time: 0.036961 :instance load 3 module!
+
+time: 1.026745 :create a new channel cc0008c0!
+
+time: 1.026848 :send 277 data to conn (null)!
+
+time: 1.037901 :channel set name file_sender!
+
+time: 1.040996 :router get proc connector_proc's message 
+time: 2.535468 :channel receive (769 2) message from conn file_sender!
+
+time: 2.535509 :client forward (769 2) message to main proc!
+
+time: 2.537308 :router get proc connector_proc's message 
+time: 2.537345 :remote msg match path crypto's policy
+time: 2.538948 :update key begin!
+
+time: 2.542669 :router get proc crypt's message 
+time: 2.542776 :send message to conn process!
+time: 2.545890 :send 261 data to conn file_sender!
+
+time: 2.545900 :send (769  2)message 261 to conn file_sender!
+

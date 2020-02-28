@@ -1,0 +1,50 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,"record_size":158,"ex
+    pand_num":0,"expand_size":0,"msg_uuid":"5e2aad6ae5740436574027ddb045df9614e22cbe
+    0701cc6bdc1b52725d271d17"},
+"RECORD":[
+    {"uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61","clie
+        nt_name":"receiver","client_proc":"receiver","client_addr":"unknown addr","serve
+        r_uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61","serv
+        er_name":"Bob_crypthub","service":"trust_server","server_addr":"","flags":0,"non
+        ce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"3d99087ee17edfb6190942d3a31
+    7980906ef6842adf7a8679ae0544d5c9e7866","receiver_uuid":"crypt","route":"crypto",
+    "flow":"QUERY","state":"MATCH","flag":"LOCAL|CRYPT","ljump":1,"rjump":2,"record_
+    type":769,"record_subtype":2,"record_num":1,"record_size":81,"expand_num":0,"exp
+    and_size":0,"msg_uuid":"c90f38e1e30dfb01e99d75ddca2f55d1469f596da213135fbd79f3fb
+    63b3c6d8"},
+"RECORD":[
+    {"BIN_FORMAT":"6/YEVi4DDdhaIyUnAF8s0wftdU3hjcvLn+fb6JJCiYergfdMSV1O34ajqooqA7k3r
+        Oa3sf1fTULaXAj/3IbfH8hTu97u3jN3SesRJHWJgYgL"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"crypt","receiver_uuid":"3d9
+    9087ee17edfb6190942d3a317980906ef6842adf7a8679ae0544d5c9e7866","route":"crypto",
+    "flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"record_type
+    ":"FILE_TRANS","record_subtype":"FILE_DATA","record_num":1,"record_size":81,"exp
+    and_num":0,"expand_size":0,"msg_uuid":"c90f38e1e30dfb01e99d75ddca2f55d1469f596da
+    213135fbd79f3fb63b3c6d8"},
+"RECORD":[
+    {"uuid":"1c0de0c4cad4672f5dd3be76dfbea2cea0eac0f20e93f4c65c2bab28676529e2","file
+        name":"test.txt","total_size":24,"record_no":0,"offset":0,"data_size":24,"file_d
+        ata":"KEZMQUc3RkFzZUEzMjRCZVczMnNzQSkK"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

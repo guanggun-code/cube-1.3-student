@@ -1,0 +1,95 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_SYNI","record_num":1,"record_size":95,"exp
+    and_num":0,"expand_size":0,"msg_uuid":"5e2aad6ae5740436574027ddb045df9614e22cbe0
+    701cc6bdc1b52725d271d17"},
+"RECORD":[
+    {"uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61","serv
+        er_name":"Bob_crypthub","service":"trust_server","server_addr":"","flags":0,"non
+        ce":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,"record_size":154,"ex
+    pand_num":0,"expand_size":0,"msg_uuid":"14e041f67f8c8dcbe20a875f2003adb5d1093457
+    adad2f8585509e5aa2fa8df5"},
+"RECORD":[
+    {"uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61","clie
+        nt_name":"transfer","client_proc":"transfer","client_addr":"unknown addr","serve
+        r_uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61","serv
+        er_name":"receiver","service":"trust_server","server_addr":"","flags":0,"nonce":
+        ""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"b8474d57a86ea550881618cc799
+    54ffe312075c86eb7b1044e83341af4c786e6","receiver_uuid":"file_dealer","route":"fi
+    le_trans","flow":"QUERY","state":"MATCH","flag":"LOCAL|CRYPT","ljump":1,"rjump":
+    3,"record_type":769,"record_subtype":2,"record_num":1,"record_size":81,"expand_n
+    um":0,"expand_size":0,"msg_uuid":"9d573c91abf082926619353ca393fbb13b2d6c168cfa1c
+    ff75aadcf020d7dacc"},
+"RECORD":[
+    {"BIN_FORMAT":"6/YEVi4DDdhaIyUnAF8s0wftdU3hjcvLn+fb6JJCiYergfdMSV1O34ajqooqA7k3r
+        Oa3sf1fTULaXAj/3IbfH8hTu97u3jN3SesRJHWJgYgL"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"b8474d57a86ea550881618cc799
+    54ffe312075c86eb7b1044e83341af4c786e6","receiver_uuid":":crypt_client","route":"
+    crypto","flow":"QUERY","state":"MATCH","flag":"CRYPT","ljump":1,"rjump":1,"recor
+    d_type":769,"record_subtype":2,"record_num":1,"record_size":81,"expand_num":0,"e
+    xpand_size":0,"msg_uuid":"c90f38e1e30dfb01e99d75ddca2f55d1469f596da213135fbd79f3
+    fb63b3c6d8"},
+"RECORD":[
+    {"BIN_FORMAT":"6/YEVi4DDdhaIyUnAF8s0wftdU3hjcvLn+fb6JJCiYergfdMSV1O34ajqooqA7k3r
+        Oa3sf1fTULaXAj/3IbfH8hTu97u3jN3SesRJHWJgYgL"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"b8474d57a86ea550881618cc799
+    54ffe312075c86eb7b1044e83341af4c786e6","receiver_uuid":"file_dealer","route":"fi
+    le_trans","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":3,"rec
+    ord_type":"FILE_TRANS","record_subtype":"FILE_DATA","record_num":1,"record_size"
+    :81,"expand_num":0,"expand_size":0,"msg_uuid":"9d573c91abf082926619353ca393fbb13
+    b2d6c168cfa1cff75aadcf020d7dacc"},
+"RECORD":[
+    {"uuid":"1c0de0c4cad4672f5dd3be76dfbea2cea0eac0f20e93f4c65c2bab28676529e2","file
+        name":"test.txt","total_size":24,"record_no":0,"offset":0,"data_size":24,"file_d
+        ata":"KEZMQUc3RkFzZUEzMjRCZVczMnNzQSkK"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"file_dealer","receiver_uuid
+    ":"b8474d57a86ea550881618cc79954ffe312075c86eb7b1044e83341af4c786e6","route":"fi
+    le_trans","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":3,"r
+    ecord_type":"FILE_TRANS","record_subtype":"NOTICE","record_num":1,"record_size":
+    0,"expand_num":0,"expand_size":0,"msg_uuid":"9d573c91abf082926619353ca393fbb13b2
+    d6c168cfa1cff75aadcf020d7dacc"},
+"RECORD":[
+    {"uuid":"1c0de0c4cad4672f5dd3be76dfbea2cea0eac0f20e93f4c65c2bab28676529e2","file
+        name":"test.txt","result":1}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

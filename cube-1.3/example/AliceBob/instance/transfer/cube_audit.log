@@ -1,0 +1,71 @@
+time: 0.000326 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/namelist.json!
+time: 0.000445 :read 4 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+time: 0.000502 :read 1 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/typelist.json!
+time: 0.000694 :read 7 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/subtypelist.json!
+time: 0.000740 :read 1 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/baseflag.json!
+time: 0.001025 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/memdb.json!
+time: 0.001604 :read 7 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/msghead.json!
+time: 0.001905 :read 2 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/msgrecord.json!
+time: 0.002148 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/expandrecord.json!
+time: 0.002669 :read 10 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/base_msg.json!
+time: 0.003275 :read 8 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/return.json!
+time: 0.003539 :read 3 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/dispatchrecord.json!
+time: 0.003667 :read 2 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/exmoduledefine.json!
+time: 0.003786 :read 1 elem from file /root/centoscloud/cube-1.3/proc/main/base_define/sys_conn.json!
+time: 0.004512 :read 7 elem from file file_trans.json!
+time: 0.024960 :this machine's local uuid is 01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61
+
+time: 0.030253 :read 2 connector!
+
+time: 0.030269 :conn server port_server begin to listen!
+
+time: 0.030387 :read 1 policy from router_policy file!
+time: 0.030435 :read 1 policy from aspect policy file!
+time: 0.030451 :system plugin router_proc is prepared!
+time: 0.035607 :system plugin connector_proc is prepared!
+time: 0.035656 :ex_module connector_proc started successfully!
+time: 0.035676 :ex_module router_proc started successfully!
+time: 0.035694 :ex_module file_dealer started successfully!
+time: 0.035699 :instance load 3 module!
+
+time: 0.035721 :client port_client connect succeed!
+
+time: 0.035745 :begin file_dealer start process! 
+
+time: 0.040900 :proc conn client receive 271 data!
+
+time: 0.040969 :send 334 data to conn port_client!
+
+time: 0.040976 :client port_client send 334 ack data to server !
+
+time: 0.045847 :router get proc connector_proc's message 
+time: 1.022748 :create a new channel 940023c0!
+
+time: 1.022808 :send 272 data to conn (null)!
+
+time: 1.028090 :channel set name file_sender!
+
+time: 1.031185 :router get proc connector_proc's message 
+time: 2.556753 :channel receive (769 2) message from conn file_sender!
+
+time: 2.556773 :client forward (769 2) message to main proc!
+
+time: 2.557774 :router get proc connector_proc's message 
+time: 2.557795 :remote msg match path file_trans's policy
+time: 2.557902 :dup a message to path teardrop's policy
+time: 2.557912 :send message to conn process!
+time: 2.562091 :send 261 data to conn port_client!
+
+time: 2.562106 :send (769  2)message 261 to conn port_client!
+
+time: 2.562864 :begin file receive!
+
+time: 2.608147 :proc conn client receive 225 data!
+
+time: 2.608626 :router get proc connector_proc's message 
+time: 2.608639 :remote msg match path file_trans's policy
+time: 2.608734 :send message to conn process!
+time: 2.608963 :send 225 data to conn file_sender!
+
+time: 2.608972 :send (769  5)message 225 to conn file_sender!
+

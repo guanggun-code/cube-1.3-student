@@ -1,0 +1,50 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,"record_size":166,"ex
+    pand_num":0,"expand_size":0,"msg_uuid":"fda50e883547dfaaee357f38d242ba0fcb87d274
+    f08273ecfc339b0e7a0f415f"},
+"RECORD":[
+    {"uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61","clie
+        nt_name":"file_sender","client_proc":"file_sender","client_addr":"unknown addr",
+        "server_uuid":"01bec00b0c1bcdc3d6727a79ca45d462869d56b654c99807223c3a133e79ec61"
+        ,"server_name":"Alice_crypthub","service":"trust_server","server_addr":"","flags
+        ":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"21655afe67332f7962d8b113ac4
+    45c4270e4896c12b1e73a6a2eabd2c8b71c0b","receiver_uuid":"crypt","route":"crypto",
+    "flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"record_type":
+    "FILE_TRANS","record_subtype":"FILE_DATA","record_num":1,"record_size":81,"expan
+    d_num":0,"expand_size":0,"msg_uuid":"fe1b6b6c1350097575c9c7a3390b7139d7e3a42c86b
+    cb3a0acb961d3a711e888"},
+"RECORD":[
+    {"uuid":"1c0de0c4cad4672f5dd3be76dfbea2cea0eac0f20e93f4c65c2bab28676529e2","file
+        name":"test.txt","total_size":24,"record_no":0,"offset":0,"data_size":24,"file_d
+        ata":"KEZMQUc3RkFzZUEzMjRCZVczMnNzQSkK"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"crypt","receiver_uuid":"216
+    55afe67332f7962d8b113ac445c4270e4896c12b1e73a6a2eabd2c8b71c0b","route":"crypto",
+    "flow":"QUERY","state":"RESPONSE","flag":"CRYPT","ljump":2,"rjump":2,"record_typ
+    e":"FILE_TRANS","record_subtype":"FILE_DATA","record_num":1,"record_size":81,"ex
+    pand_num":0,"expand_size":0,"msg_uuid":"fe1b6b6c1350097575c9c7a3390b7139d7e3a42c
+    86bcb3a0acb961d3a711e888"},
+"RECORD":[
+    {"BIN_FORMAT":"6/YEVi4DDdhaIyUnAF8s0wftdU3hjcvLn+fb6JJCiYergfdMSV1O34ajqooqA7k3r
+        Oa3sf1fTULaXAj/3IbfH8hTu97u3jN3SesRJHWJgYgL"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
